@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Libreta – Ordena tu negocio desde el celular</title>
-<meta name="description" content="Anota ventas y gastos en segundos y sabe cuánto ganaste hoy. En celular, tablet o PC, y funciona sin internet. Prueba Libreta gratis por 30 días.">
+<meta name="description" content="Anota ventas y gastos en segundos y sabe cuánto ganaste hoy. En Android, iPhone, Windows o Mac, y funciona sin internet. Prueba Libreta gratis por 30 días.">
 <meta property="og:title" content="Libreta – Ordena tu negocio desde el celular">
-<meta property="og:description" content="Ventas, gastos y ganancias en tu celular, tablet o PC, aunque no tengas internet. 30 días gratis.">
+<meta property="og:description" content="Ventas, gastos y ganancias en Android, iPhone, Windows o Mac, aunque no tengas internet. 30 días gratis.">
 <meta name="theme-color" content="#1F6B4F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=DM+Sans:wght@400;500;700&amp;family=Caveat:wght@700&amp;display=swap" rel="stylesheet">
@@ -29,6 +29,7 @@ summary::-webkit-details-marker{display:none}
 .lb-card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(23,36,31,.12)}
 .lb-btn{transition:transform .2s ease, box-shadow .2s ease}
 .lb-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(23,36,31,.25)}
+@media (max-width: 640px){.lb-plat{display:grid!important;grid-template-columns:1fr 1fr;max-width:360px!important}.lb-plat span{justify-content:center;padding:12px 8px!important;font-size:14.5px!important;gap:7px!important;white-space:nowrap}}
 @media (prefers-reduced-motion: reduce){.lb-float,.lb-float2,.lb-rise,.lb-rise2,.lb-track{animation:none}}
 </style>
     <!-- Vercel Web Analytics: cuenta visitas, sin enviar datos del negocio -->
@@ -78,7 +79,7 @@ summary::-webkit-details-marker{display:none}
           <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F6B4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Sin tarjeta</span>
           <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F6B4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Sin tienda de apps</span>
           <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F6B4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Sin internet</span>
-          <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F6B4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Celular, tablet y PC</span>
+          <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F6B4F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Android, iPhone, Windows y Mac</span>
         </div>
       </div>
 
@@ -288,7 +289,13 @@ summary::-webkit-details-marker{display:none}
     <div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; text-align: center">
       <p style="margin: 0 0 8px; font-family: 'Caveat', cursive; font-size: 28px; color: #A3471A">en la pantalla que prefieras</p>
       <h2 style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(2rem, 3.8vw, 3.2rem); letter-spacing: -1px; margin: 0 0 12px">Úsala en celular, tablet o PC</h2>
-      <p style="font-size: 18px; color: #3B4842; margin: 0 auto 48px; max-width: 620px">Funciona en Android, iPhone, tablets y computadoras. Solo necesitas un navegador.</p>
+      <p style="font-size: 18px; color: #3B4842; margin: 0 auto 28px; max-width: 620px">Sirve en cualquier celular, tablet o computadora. Solo necesitas un navegador, sin descargar nada de la tienda de apps.</p>
+      <div class="lb-plat" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 0 auto 48px; max-width: 760px" aria-label="Compatible con Android, iPhone y iPad, Windows y Mac">
+        <span style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; background: #E7F3EC; border: 2px solid #17241F; box-shadow: 0 3px 0 #17241F; font-weight: 700; font-size: 17px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#17241F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg>Android</span>
+        <span style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; background: #FFE58A; border: 2px solid #17241F; box-shadow: 0 3px 0 #17241F; font-weight: 700; font-size: 17px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#17241F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2.5"></rect><path d="M10.5 5h3"></path></svg>iPhone y iPad</span>
+        <span style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; background: #D3DEF5; border: 2px solid #17241F; box-shadow: 0 3px 0 #17241F; font-weight: 700; font-size: 17px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#17241F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5"></rect><path d="M9 20h6"></path><path d="M12 16v4"></path></svg>Windows</span>
+        <span style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 999px; background: #FCEDE3; border: 2px solid #17241F; box-shadow: 0 3px 0 #17241F; font-weight: 700; font-size: 17px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#17241F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="11" rx="1.5"></rect><path d="M2 19h20"></path></svg>Mac y MacBook</span>
+      </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto">
         <div class="lb-card" style="background: #F6F4EE; border-radius: 24px; padding: 32px 24px; display: flex; flex-direction: column; align-items: center; gap: 14px">
           <div style="width: 88px; height: 88px; border-radius: 24px; background: #CFE8DA; display: flex; align-items: center; justify-content: center"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#17241F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></div>
@@ -386,8 +393,8 @@ summary::-webkit-details-marker{display:none}
         <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.55; color: #3B4842">No pierdes nada: pasas solo al plan Gratis y sigues usando Libreta con hasta 50 ventas al mes, 30 productos y 10 clientes. Si necesitas más, o quieres contabilidad, modo vendedor, comprobantes, reportes y descargas en Excel, activas Pro.</p>
       </details>
       <details style="background: #FFFFFF; border: 2px solid #17241F; border-radius: 18px; padding: 20px 24px">
-        <summary style="font-weight: 700; font-size: 18px">¿Funciona en computadora y tablet?</summary>
-        <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.55; color: #3B4842">Sí. Abre el mismo enlace en cualquier navegador de tu celular, tablet o PC. Por ahora cada dispositivo guarda sus propios datos, así que te recomendamos usar uno principal para tu negocio.</p>
+        <summary style="font-weight: 700; font-size: 18px">¿Funciona en iPhone, Windows y Mac?</summary>
+        <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.55; color: #3B4842">Sí. Funciona en Android, iPhone y iPad, computadoras con Windows y Mac. Abre el mismo enlace en el navegador (Chrome, Safari o Edge). Por ahora cada dispositivo guarda sus propios datos, así que te recomendamos usar uno principal para tu negocio.</p>
       </details>
       <details style="background: #FFFFFF; border: 2px solid #17241F; border-radius: 18px; padding: 20px 24px">
         <summary style="font-weight: 700; font-size: 18px">¿Dónde se guardan mis datos?</summary>
